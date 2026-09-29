@@ -6,7 +6,7 @@ The plugin is three small files: `plugin.json`, an `mcp.json` that points at you
 
 ## Status
 
-Early. No journal release serves this address yet; the plugin works once one does. It also needs a Tiles build with plugin support (the canary channel today).
+Works with journal 2.0.24 and later, on the computer where your journal lives. It needs a Tiles build with plugin support (the canary channel today).
 
 ## Install
 
@@ -14,7 +14,13 @@ Early. No journal release serves this address yet; the plugin works once one doe
 tiles plugin install https://github.com/solpbc/solstone-tiles/releases/download/v0.1.0/solstone-tiles-0.1.0.zip
 ```
 
-Restart Tiles, then type `/mcp-auth solstone__journal` in the chat. Your browser opens your journal's page. Enter the pairing code from your journal's agents app and choose what Tiles may see.
+## Connect Tiles to your journal
+
+1. In your journal, open agents › connect an agent and make a pairing code. If it asks where this agent is, choose "on this computer". If it isn't offered, turn on agents on this computer in the agents app first. The code works once and lasts 10 minutes, and your journal lets an agent start connecting only while a code is open.
+2. In the Tiles chat, type `/mcp-auth solstone__journal`. Your browser opens your journal's page.
+3. Choose your whole journal or only some facets, and at least one kind of material. Then enter the code and connect.
+
+If the Tiles chat stays on "Processing..." after you connect, quit Tiles and open it again. The connection is kept.
 
 ## Build
 
