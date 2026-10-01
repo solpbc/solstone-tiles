@@ -11,7 +11,7 @@ Works with journal 2.0.24 and later, on the computer where your journal lives. I
 ## Install
 
 ```
-tiles plugin install https://github.com/solpbc/solstone-tiles/releases/download/v0.1.0/solstone-tiles-0.1.0.zip
+tiles plugin install https://github.com/solpbc/solstone-tiles/releases/download/v0.1.1/solstone-tiles-0.1.1.zip
 ```
 
 ## Connect Tiles to your journal
